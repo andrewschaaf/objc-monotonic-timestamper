@@ -27,3 +27,6 @@ Returns
       last value returned,
       timeZeroMicroseconds plus the difference in uptimeMicroseconds between init and now.
     )
+
+
+## License: MIT
