@@ -15,7 +15,7 @@ Returns the number of microseconds since the epoch, as determined by `gettimeofd
 ### uptimeMicroseconds
 
 Returns the number of microseconds since the epoch (via `gettimeofday`)
-minus the number of seconds between the epoch and boottime
+minus the number of microseconds between the epoch and boottime
 (via `sysctl`'s `kern.boottime`, second resolution).
 
 
